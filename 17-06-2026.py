@@ -44,7 +44,11 @@ helper = TestcaseHelper()
 
 t = helper.read_int()
 for _ in range(t):
-    pass
-    
-    
-    
+    n,x,y = helper.read_ints()
+    a = helper.read_ints()
+    b = [num//x for num in a]
+    s = sum(b)
+    ans = 0
+    for i in range(n):
+        ans = max(ans,a[i]+(s-b[i])*y)
+    print(ans)
