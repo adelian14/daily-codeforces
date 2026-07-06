@@ -44,7 +44,15 @@ helper = TestcaseHelper()
 
 t = helper.read_int()
 for _ in range(t):
-    pass
+    s = helper.read_line()
+    a = ['u'] + [x for x in s] + ['u']
+    ans = 0
+    for i in range(1, len(a)):
+        if a[i - 1] == 'u' and a[i] == 'u':
+            ans += 1
+            a[i] = 's'
+    print(ans)
+
     
     
     
