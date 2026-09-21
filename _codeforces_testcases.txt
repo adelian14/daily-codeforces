@@ -1,3 +1,1 @@
-4 10
-abcd
-ebceabazcd
+100010001
