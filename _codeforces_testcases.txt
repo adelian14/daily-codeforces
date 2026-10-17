@@ -1,5 +1,4 @@
-4
-a
-zzaaz
-ccff
-cbddbb
+3 7
+2 2
+2 3
+2 4
