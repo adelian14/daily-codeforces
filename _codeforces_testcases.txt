@@ -1,2 +1,13 @@
-4 5
-10 4 18 3
+6
+6
+abccba
+2
+cf
+4
+adfa
+8
+abaazaba
+2
+ml
+2
+ay
